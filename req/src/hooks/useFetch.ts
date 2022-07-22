@@ -6,6 +6,7 @@ export const useFetch = () => {
     const [movies, setMovies] = useState<MovieList[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
+    const [user, setUser] = useState("");
 
     useEffect(() => {
         async function fetchData() {
@@ -20,5 +21,5 @@ export const useFetch = () => {
         }
         fetchData();
     }, []);
-    return { movies, loading, error };
+    return { movies, loading, error, user };
 };
