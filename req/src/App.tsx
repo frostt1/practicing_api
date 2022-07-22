@@ -5,7 +5,7 @@ const App = () => {
     const { movies, loading, error } = useFetch();
     return (
         <div>
-            <h2>FILMEZ EM CARTAZ</h2>
+            <h1 className="titulo">FILMEZ EM CARTAZ</h1>
             <div>
                 {error && <p className="error">{error}</p>}
                 {loading && <p className="loading">CARREGANDO, AGUARDE ...</p>}
