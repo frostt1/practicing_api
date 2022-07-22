@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+.error {
+  background-color: rgb(255, 0, 0);
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.loading {
+  background-color: rgb(0, 255, 26);
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+
+}
+
+.grid img {
+  max-width: 240px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.grid h3 {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.grid h3:hover {
+  color: aliceblue;
+}
